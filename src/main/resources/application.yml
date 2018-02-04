@@ -1,0 +1,9 @@
+server:
+  port: 8081
+logging:
+  pattern:
+    console: "%d -%msg%n"
+  #path: G:/log/
+  file: G:/log/logger
+  level:
+    com.example.aop: info
